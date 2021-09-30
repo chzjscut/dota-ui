@@ -1,0 +1,33 @@
+{
+  "name": "dota-ui",
+  "version": "1.0.0",
+  "description": "an UI Component library for Vue",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vue",
+    "UI",
+    "Component",
+    "css"
+  ],
+  "author": "chenzijing",
+  "license": "ISC",
+  "dependencies": {
+    "ant-design-vue": "^1.7.8",
+    "element-ui": "^2.15.6",
+    "vue-router": "^3.5.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
+  }
+}
